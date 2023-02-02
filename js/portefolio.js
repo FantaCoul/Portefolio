@@ -11,7 +11,6 @@ menus.onclick = () => {
     menu.classList.toggle('open');
 }
 
-// réalisé le 29 janvier (pour les valeurs exemples en commentaire)
 
 var heuresDiv = document.querySelector('.heures');
 var dateDiv = document.querySelector('.date');
