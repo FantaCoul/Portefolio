@@ -124,7 +124,7 @@ section{
   min-height: 100vh;
   height: 40%;
   width: 100%;
-  background-image: url(../image/16.jpg);
+  background-image: url(../image/photo2.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -524,10 +524,6 @@ header.sticky{
   .menu.open{
     top: 100%;
   }
-  .Acceuil{
-    background-image: url(../image/photo1.jpg);
 
-  }
-  
 }
 /*------------fin responsivité-------------*/
