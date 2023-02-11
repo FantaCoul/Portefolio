@@ -122,9 +122,9 @@ section{
 }
 .Acceuil{
   min-height: 100vh;
-  height: 100%;
+  height: 40%;
   width: 100%;
-  background-image: url(../image/photo.jpg);
+  background-image: url(../image/16.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -222,7 +222,7 @@ header.sticky{
   margin-bottom: 10px;
 }
 .service-text h2{
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1;
 }
 .services-content{
@@ -280,7 +280,11 @@ header.sticky{
 .portefolio-text{
   text-align: center;
 }
-.portefolio-content{
+.portefolio-text h2{
+  font-size: 40px;
+  line-height: 1;
+}
+.portefolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, auto));
   align-items: center;
@@ -295,7 +299,7 @@ header.sticky{
   cursor: pointer;
 }
 .row img{
-  width: 100%;
+  width: 90%;
   border-radius: 8px;
   display: block;
   transition: transform 0.5s;
@@ -519,6 +523,10 @@ header.sticky{
   }
   .menu.open{
     top: 100%;
+  }
+  .Acceuil{
+    background-image: url(../image/photo1.jpg);
+
   }
   
 }
